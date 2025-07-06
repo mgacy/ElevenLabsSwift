@@ -20,5 +20,6 @@ let package = Package(
             name: "ElevenLabsSDK",
             dependencies: ["DeviceKit"]
         )
-    ]
+    ],
+    swiftLanguageModes: [.v6]
 )
